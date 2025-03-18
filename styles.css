@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* background color */
+}
+
+h1 {
+    color: #2c3e50; /* heading */
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Flex container for heading, filter, & cart summary */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px;
+}
+
+.filter-container {
+    margin-left: auto; /* Pushes the filter to the right */
+}
+
+/* Styling for container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow products to wrap */
+    justify-content: center; /* Center products */
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: left;
+    background: linear-gradient(to right, #ecf0f1, #bdc3c7); /* Gradient background for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow for depth */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Cart summary styling */
+#cart-summary {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #ffffff; /* White background for cart summary */
+    border-radius: 5px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
