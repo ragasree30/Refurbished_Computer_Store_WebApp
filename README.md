@@ -27,6 +27,6 @@ Product data is fetched from the following JSON endpoint:
 ## Installation
 1. Clone the repository: https://github.com/ragasree30/Refurbished_Computer_Store_WebApp.git
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/ragasree30/Refurbished_Computer_Store_WebApp.git
 2. Open the project folder in your preferred code editor.
-3. Open index.html in a web browser.
+3. Open index.html in a web browser (live server).
